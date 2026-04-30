@@ -1,16 +1,110 @@
-# React + Vite
+# Viyona Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Frontend application for the Fintech Merchant Onboarding system.
+Allows merchants to register, login, submit applications, and track status.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (Vite)
+* Axios
+* React Router
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+Clone the repo:
+
+```
+git clone https://github.com/<your-username>/viyona-frontend.git
+cd viyona-frontend
+npm install
+```
+
+Create `.env` file:
+
+```
+VITE_API_BASE_URL=https://your-backend.onrender.com
+```
+
+Run app:
+
+```
+npm run dev
+```
+
+---
+
+## Live URL
+
+```
+https://your-frontend.vercel.app
+```
+
+---
+
+## Features
+
+### Merchant
+
+* Register account
+* Login
+* Submit onboarding application
+* Upload documents
+* View application status
+
+### Admin
+
+* Login
+* View all applications
+* Filter/search applications
+* Update status
+* Add remarks
+
+---
+
+## Pages
+
+* Register Page
+* Login Page
+* Admin Login Page
+* Dashboard
+* Application Form
+* Status Page
+
+---
+
+## API Integration
+
+All API calls are handled using Axios.
+
+Base URL:
+
+```
+VITE_API_BASE_URL
+```
+
+---
+
+## Deployment
+
+* Frontend: Vercel
+* Backend: Render
+
+---
+
+## Notes
+
+* Uses environment variables
+* Connected to backend APIs
+* Responsive UI
+
+---
+
+## Status
+
+Project completed and deployed.
